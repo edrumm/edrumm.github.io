@@ -1,0 +1,9 @@
+S@media only screen and (max-width: 600px) {
+  .section h1 {
+    font-size: 1.8em;
+  }
+  .section h2 {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

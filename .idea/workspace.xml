@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a6d4dac-f1cf-472d-a410-299b625dc6eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WlawhclaTSjPcSb4buRpf0SrjH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\esd06\Documents\Software\edrumm.github.io" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a6d4dac-f1cf-472d-a410-299b625dc6eb" name="Default Changelist" comment="" />
+      <created>1579726875845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579726875845</updated>
+      <workItem from="1579726877024" duration="2405000" />
+      <workItem from="1579731112742" duration="2093000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1579731123996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Configure_Path_Variables/0.0.1920.1040@0.0.1920.1040" timestamp="1579731123996" />
+    <state x="601" y="288" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579726941734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="288" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579726941734" />
+    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579727240221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579727240221" />
+    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog" timestamp="1579727458705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579727458705" />
+    <state x="1062" y="353" key="FileChooserDialogImpl" timestamp="1579732004758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1062" y="353" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579732004758" />
+    <state x="757" y="165" key="SettingsEditor" timestamp="1579733182782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579733182782" />
+  </component>
+</project>
