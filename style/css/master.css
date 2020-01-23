@@ -10,6 +10,9 @@ body {
 }
 @font-face {
 }
+.hide-mobile {
+  display: inline-block;
+}
 h1 {
   color: #003499;
   font-family: Asap, sans-serif;
@@ -70,5 +73,37 @@ nav ul li a:hover {
   font-style: italic;
   font-size: 1.5em;
   color: #FFFFFF;
+}
+.section p {
+  font-family: Titillium Web, sans-serif;
+  font-size: 1.25em;
+  color: #FFFFFF;
+}
+.section .p-light {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+footer {
+  width: 100vw;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  background-color: #1F1F27;
+  font-family: Titillium Web, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.5%;
+}
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #a6a6a6;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 /*# sourceMappingURL=master.css.map */

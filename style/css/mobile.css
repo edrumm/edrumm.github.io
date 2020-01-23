@@ -1,9 +1,18 @@
-S@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
   .section h1 {
     font-size: 1.8em;
   }
   .section h2 {
     font-size: 1em;
+  }
+  .section p {
+    font-size: 0.9em;
+  }
+  footer p {
+    font-size: 0.9em;
   }
 }
 /*# sourceMappingURL=mobile.css.map */

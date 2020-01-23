@@ -23,6 +23,10 @@ html, body {
   transition: @arguments;
 }
 
+.hide-mobile {
+  display: inline-block;
+}
+
 h1 {
   color: @dark-blue;
   font-family: Asap, sans-serif;
@@ -87,5 +91,37 @@ nav {
     font-style: italic;
     font-size: 1.5em;
     color: @white;
+  }
+
+  p {
+    font-family: Titillium Web, sans-serif;
+    font-size: 1.25em;
+    color: @white;
+  }
+
+  .p-light {
+    color: fade(@white, 50%);
+    font-style: italic;
+  }
+}
+
+footer {
+  width: 100vw;
+  right: 0; left: 0; bottom: 0;
+  color: @white;
+  background-color: @dark-grey;
+  font-family: Titillium Web, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.5%;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: @link-hover;
+      .transition-properties(color 0.5s linear;);
+    }
   }
 }
