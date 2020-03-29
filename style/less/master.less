@@ -17,10 +17,6 @@ html, body {
   margin: 0;
 }
 
-@font-face {
-  // TODO: set this up
-}
-
 .transition-properties(...) {
   -webkit-transition: @arguments;
   -moz-transition: @arguments;
@@ -77,19 +73,23 @@ nav {
 
     li {
       display: block;
-      padding: 0 1.25%;
+      padding: 0 2%;
 
       a {
         float: left;
         text-align: center;
       }
     }
+
+    #dropdown-btn {
+      display: none;
+    }
   }
 
   img {
     float: left;
     width: 1.5%;
-    padding: 0.5% 1% 0.5% 0.5%;
+    padding: 0.5% 1.5% 0.5% 0.5%;
   }
 }
 
