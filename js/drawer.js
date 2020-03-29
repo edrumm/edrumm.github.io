@@ -1,2 +1,3 @@
-function blank() {
+function drawerReset() {
+    // TODO:
 }

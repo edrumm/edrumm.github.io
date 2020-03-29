@@ -7,6 +7,10 @@
   font-size: 1em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   overflow-x: hidden;
   padding: 0;
@@ -43,12 +47,26 @@ h3 {
   font-size: 1.25em;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: @link-hover;
+    .transition-properties(color 0.5s linear)
+  }
+}
+
 nav {
+  color: @white;
+  background: @dark-grey;
   font-family: Oswald, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  background: @dark-grey;
 
   ul {
     width: auto;
@@ -63,14 +81,7 @@ nav {
 
       a {
         float: left;
-        color: @white;
         text-align: center;
-        text-decoration: none;
-
-        &:hover {
-          color: @link-hover;
-          .transition-properties(color 0.5s linear;);
-        }
       }
     }
   }
@@ -78,7 +89,7 @@ nav {
   img {
     float: left;
     width: 1.5%;
-    padding: 0.5%;
+    padding: 0.5% 1% 0.5% 0.5%;
   }
 }
 
@@ -124,14 +135,4 @@ footer {
   font-size: 0.8em;
   text-align: center;
   padding: 0.5%;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      color: @link-hover;
-      .transition-properties(color 0.5s linear;);
-    }
-  }
 }
