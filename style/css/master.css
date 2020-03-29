@@ -45,20 +45,19 @@ nav {
   font-family: Oswald, sans-serif;
   overflow: hidden;
   position: fixed;
-  z-index: 100;
   width: 100vw;
   background: #1F1F27;
 }
 nav ul {
-  width: 100%;
+  width: auto;
+  list-style-type: none;
   padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: row;
 }
 nav ul li {
-  list-style: none;
-  padding: 1% 1.25%;
+  display: block;
+  padding: 0 1.25%;
 }
 nav ul li a {
   float: left;
@@ -72,6 +71,11 @@ nav ul li a:hover {
   -moz-transition: color 0.5s linear;
   -o-transition: color 0.5s linear;
   transition: color 0.5s linear;
+}
+nav img {
+  float: left;
+  width: 1.5%;
+  padding: 0.5%;
 }
 .section {
   width: 100vw;

@@ -47,20 +47,19 @@ nav {
   font-family: Oswald, sans-serif;
   overflow: hidden;
   position: fixed;
-  z-index: 100;
   width: 100vw;
   background: @dark-grey;
 
   ul {
-    width: 100%;
+    width: auto;
+    list-style-type: none;
     padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: row;
 
     li {
-      list-style: none;
-      padding: 1% 1.25%;
+      display: block;
+      padding: 0 1.25%;
 
       a {
         float: left;
@@ -74,6 +73,12 @@ nav {
         }
       }
     }
+  }
+
+  img {
+    float: left;
+    width: 1.5%;
+    padding: 0.5%;
   }
 }
 
