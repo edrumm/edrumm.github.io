@@ -13,24 +13,33 @@
   }
   nav {
     padding: 1%;
+    align-items: center;
   }
   nav ul {
     width: 80%;
     justify-content: flex-end;
     text-align: right;
+    flex-direction: column;
   }
-  nav ul li:not(#dropdown-btn) {
+  nav ul li {
     display: none;
+    font-size: 1.25em;
+    margin-right: 0;
+    padding: 5% 2%;
   }
-  nav ul #dropdown-btn {
+  nav .dropdown-btn {
+    font-size: 1.25em;
     display: block;
-    padding: 1% 2% 1% 1%;
+    padding: 1% 1% 1% 5%;
   }
-  nav ul #dropdown-btn a {
+  nav .dropdown-btn a {
     text-align: right;
   }
   nav img {
     width: 12%;
+  }
+  nav .active {
+    display: block;
   }
   .section h1 {
     font-size: 1.8em;

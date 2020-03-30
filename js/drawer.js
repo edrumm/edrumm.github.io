@@ -1,16 +1,25 @@
-function toggleDrawer(reset) {
-    let nav = document.getElementById("nav-list");
-    let list = document.querySelectorAll("#nav-list > li:not(#dropdown-btn)");
-    let icon = document.getElementById("dropdown-btn").getElementsByTagName("a")[0];
+function resetDropdown() {
+    let list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
+    let icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
 
-    if (reset || icon.innerHTML === "▲") {
-        icon.innerHTML = "☰";
+    icon.innerHTML = "☰";
 
-        // ...
+    for (let item of list) {
+        item.classList.remove("active");
+    }
+}
 
-    } else {
+function toggleDropdown() {
+    let list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
+    let icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
+
+    if (icon.innerHTML === "☰") {
         icon.innerHTML = "▲";
+    } else {
+        icon.innerHTML = "☰";
+    }
 
-        // ...
+    for (let item of list) {
+        item.classList.toggle("active");
     }
 }

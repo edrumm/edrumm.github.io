@@ -3,7 +3,5 @@ window.onload = function () {
 };
 
 function resize() {
-    if (window.innerWidth > 600) {
-        toggleDrawer(true);
-    }
+    // TODO: Reset dropdown onresize!!
 }

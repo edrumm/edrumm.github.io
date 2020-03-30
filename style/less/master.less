@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -57,39 +58,43 @@ nav {
   color: @white;
   background: @dark-grey;
   font-family: Oswald, sans-serif;
-  /*display: flex;
-  flex-direction: row;
-  align-items: center;*/
-  overflow: hidden;
+  display: flex;
+  align-items: center;
   position: fixed;
   padding: 0.5%;
   width: 100vw;
 
   ul {
-    width: auto;
     list-style-type: none;
-    padding: 0;
     display: flex;
     flex-direction: row;
+    padding-right: 2%;
 
     li {
-      display: block;
-      padding: 0 2%;
+      padding: 2%;
+      margin-right: 50%;
 
       a {
         text-align: center;
       }
     }
+  }
 
-    #dropdown-btn {
-      display: none;
-    }
+  .dropdown-btn {
+    display: none;
   }
 
   img {
-    float: left;
     width: 1.5%;
-    padding: 0.5% 1.5% 0.5% 0.5%;
+    padding: 0.5%;
+    transform: scale(1);
+    .transition-properties(transform 0.5s);
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.25);
+      .transition-properties(transform 0.5s);
+    }
   }
 }
 

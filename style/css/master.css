@@ -20,6 +20,7 @@
 }
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -57,35 +58,44 @@ nav {
   color: #FFFFFF;
   background: #1F1F27;
   font-family: Oswald, sans-serif;
-  /*display: flex;
-  flex-direction: row;
-  align-items: center;*/
-  overflow: hidden;
+  display: flex;
+  align-items: center;
   position: fixed;
   padding: 0.5%;
   width: 100vw;
 }
 nav ul {
-  width: auto;
   list-style-type: none;
-  padding: 0;
   display: flex;
   flex-direction: row;
+  padding-right: 2%;
 }
 nav ul li {
-  display: block;
-  padding: 0 2%;
+  padding: 2%;
+  margin-right: 50%;
 }
 nav ul li a {
   text-align: center;
 }
-nav ul #dropdown-btn {
+nav .dropdown-btn {
   display: none;
 }
 nav img {
-  float: left;
   width: 1.5%;
-  padding: 0.5% 1.5% 0.5% 0.5%;
+  padding: 0.5%;
+  transform: scale(1);
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+}
+nav img:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 .section {
   width: 100vw;
