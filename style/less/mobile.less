@@ -10,7 +10,7 @@
 
   .section {
     h1 {
-      font-size: 5em;
+      font-size: 4em;
     }
   }
 }
@@ -24,21 +24,29 @@
   }
 
   nav {
-    ul {
-      width: 88%;
-      justify-content: flex-end;
-    }
-    ul li:not(#dropdown-btn) {
-      display: none;
-    }
+    padding: 1%;
 
-    ul #dropdown-btn {
-      display: block;
+    ul {
+      width: 80%;
+      justify-content: flex-end;
+      text-align: right;
+
+      li:not(#dropdown-btn) {
+        display: none;
+      }
+
+      #dropdown-btn {
+        display: block;
+        padding: 1% 2% 1% 1%;
+
+        a {
+          text-align: right;
+        }
+      }
     }
 
     img {
-      width: 8%;
-      padding: 2%;
+      width: 12%;
     }
 
   }

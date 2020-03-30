@@ -57,11 +57,12 @@ nav {
   color: #FFFFFF;
   background: #1F1F27;
   font-family: Oswald, sans-serif;
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center;*/
   overflow: hidden;
   position: fixed;
+  padding: 0.5%;
   width: 100vw;
 }
 nav ul {
@@ -76,7 +77,6 @@ nav ul li {
   padding: 0 2%;
 }
 nav ul li a {
-  float: left;
   text-align: center;
 }
 nav ul #dropdown-btn {
