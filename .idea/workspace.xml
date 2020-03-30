@@ -5,12 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/drawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mobile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/less/master.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/less/master.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/less/mobile.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/less/mobile.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <workItem from="1585508522392" duration="120000" />
       <workItem from="1585508756721" duration="342000" />
       <workItem from="1585515140182" duration="8756000" />
-      <workItem from="1585579873647" duration="4210000" />
+      <workItem from="1585579873647" duration="6020000" />
     </task>
     <task id="LOCAL-00001" summary="Basic version">
       <created>1579739873463</created>
@@ -149,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585526149664</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="improved nav-bar dropdown, incomplete">
+      <created>1585586539620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585586539620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +166,9 @@
     <MESSAGE value="changed favicon logo" />
     <MESSAGE value="fixed logo position, optimized tablet mode" />
     <MESSAGE value="added dropdown toggle button :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dropdown toggle button :)" />
+    <MESSAGE value="improved navbar drowdown, incomplete" />
+    <MESSAGE value="improved nav-bar dropdown, incomplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved nav-bar dropdown, incomplete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1579806526849">
@@ -187,10 +191,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579727240221" />
-    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585526148456">
+    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585586539017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585526148456" />
+    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585586539017" />
     <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog" timestamp="1579727458705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585524251817" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585526151500">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585586547341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585526151500" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585586547341" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580515055166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
