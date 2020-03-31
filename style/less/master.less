@@ -101,12 +101,11 @@ nav {
 .section {
   width: 100vw;
   height: 100vh;
-  background-image: url("@{assets}/img/background.png");
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: @white;
 
   h1 {
     font-size: 7em;
@@ -129,6 +128,11 @@ nav {
     color: fade(@white, 50%);
     font-style: italic;
   }
+}
+
+#top {
+  background-image: url("@{assets}/img/background.png");
+  background-size: cover;
 }
 
 footer {

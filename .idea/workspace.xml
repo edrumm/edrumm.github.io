@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6d4dac-f1cf-472d-a410-299b625dc6eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/drawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/css/mobile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/less/master.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/less/master.less" afterDir="false" />
@@ -47,8 +43,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/style/less" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -95,7 +91,9 @@
       <workItem from="1585515140182" duration="8756000" />
       <workItem from="1585579873647" duration="6072000" />
       <workItem from="1585590145940" duration="2361000" />
-      <workItem from="1585608082173" duration="2274000" />
+      <workItem from="1585608082173" duration="2693000" />
+      <workItem from="1585667632971" duration="1285000" />
+      <workItem from="1585668930386" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="Basic version">
       <created>1579739873463</created>
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585588355002</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finally a working dropdown... :p">
+      <created>1585610475240</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585610475240</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +190,8 @@
     <MESSAGE value="improved navbar drowdown, incomplete" />
     <MESSAGE value="improved nav-bar dropdown, incomplete" />
     <MESSAGE value="dropdown completely broken, temporarily removed for stability" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown completely broken, temporarily removed for stability" />
+    <MESSAGE value="finally a working dropdown... :p" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally a working dropdown... :p" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1579806526849">
@@ -208,30 +214,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="288" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579726941734" />
-    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1579727240221">
+    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585669539251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579727240221" />
-    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585588354531">
+    <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585669539251" />
+    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585610474603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585588354531" />
-    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog" timestamp="1579727458705">
+    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585610474603" />
+    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog" timestamp="1585669547995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579727458705" />
-    <state x="1062" y="353" key="FileChooserDialogImpl" timestamp="1579732004758">
+    <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585669547995" />
+    <state x="1062" y="353" key="FileChooserDialogImpl" timestamp="1585669546433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1062" y="353" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579732004758" />
-    <state x="757" y="165" key="SettingsEditor" timestamp="1585524251817">
+    <state x="1062" y="353" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585669546433" />
+    <state x="757" y="165" key="SettingsEditor" timestamp="1585669549885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585524251817" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585588356808">
+    <state x="757" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585669549885" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585610479840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585588356808" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585610479840" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580515055166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
