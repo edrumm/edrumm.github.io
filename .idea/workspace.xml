@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a6d4dac-f1cf-472d-a410-299b625dc6eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/master.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/master.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/css/mobile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/css/mobile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/less/master.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/less/master.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,10 @@
       <workItem from="1585608082173" duration="2693000" />
       <workItem from="1585667632971" duration="1285000" />
       <workItem from="1585668930386" duration="1947000" />
-      <workItem from="1585697164998" duration="1070000" />
+      <workItem from="1585697164998" duration="1194000" />
+      <workItem from="1586115489731" duration="3000" />
+      <workItem from="1586129741200" duration="5000" />
+      <workItem from="1587164712729" duration="161000" />
     </task>
     <task id="LOCAL-00001" summary="Basic version">
       <created>1579739873463</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585669771913</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="few styling changes, added dropdown close when link tapped on mobile mode">
+      <created>1585698279352</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585698279352</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +204,8 @@
     <MESSAGE value="dropdown completely broken, temporarily removed for stability" />
     <MESSAGE value="finally a working dropdown... :p" />
     <MESSAGE value="added new section, fixed WebStorm Less Watcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new section, fixed WebStorm Less Watcher" />
+    <MESSAGE value="few styling changes, added dropdown close when link tapped on mobile mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="few styling changes, added dropdown close when link tapped on mobile mode" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1579806526849">
@@ -227,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="338" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585669539251" />
-    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585669771358">
+    <state x="585" y="95" key="CommitChangelistDialog2" timestamp="1585698278744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585669771358" />
+    <state x="585" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585698278744" />
     <state x="594" y="299" width="731" height="666" key="EditFileWatcherDialog" timestamp="1585669547995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585669549885" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585669774296">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585698281253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585669774296" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585698281253" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580515055166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
