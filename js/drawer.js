@@ -1,6 +1,8 @@
+window.onload = () => resetDropdown(); // temporary
+
 function resetDropdown() {
-  let list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
-  let icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
+  const list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
+  const icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
 
   icon.innerHTML = "☰";
 
@@ -10,8 +12,8 @@ function resetDropdown() {
 }
 
 function toggleDropdown() {
-  let list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
-  let icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
+  const list = document.getElementsByClassName("nav-list")[0].getElementsByTagName("li");
+  const icon = document.getElementsByClassName("dropdown-btn")[0].getElementsByTagName("a")[0];
 
   if (icon.innerHTML === "☰") {
       icon.innerHTML = "▲";

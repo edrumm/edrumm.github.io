@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Asap';
+  src: url("../../assets/fonts/Asap-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url("../../assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("../../assets/fonts/RobotoMono-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../../assets/fonts/TitilliumWeb-Regular.ttf") format("truetype");
+}
 :root {
   font-family: sans-serif;
   font-size: 1em;
