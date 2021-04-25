@@ -20,26 +20,24 @@ function display(repositories) {
 
 fetch(url /* options */)
 .then(response => response.json())
-.then(repos => {
+.then(reps => {
 
   let repositories = [];
 
-  repos.forEach(repo => {
-    let rdata = {
+  reps.forEach(rep => {
       /*
-      name: repo.name,
-      description:
-      url:
-      language:
-      stars:
-      watchers:
-      forks:
+      name,
+      description,
+      url,
+      language,
+      stars,
+      watchers,
+      forks,
 
       anything else?
       */
-    };
 
-    repositories.push(rdata);
+    repositories.push(new Repository(/* ... */));
   });
 
   display(repositories);
