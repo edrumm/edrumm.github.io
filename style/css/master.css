@@ -71,6 +71,7 @@ nav {
   position: fixed;
   padding: 0.5%;
   width: 100vw;
+  z-index: 1;
 }
 nav img {
   width: 1.5%;
@@ -92,12 +93,9 @@ nav img:hover {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #FFFFFF;
   color: #1F1F27;
+  z-index: 0;
 }
 .wrapper h1 {
   font-size: 7em;
@@ -113,9 +111,23 @@ nav img:hover {
   font-size: 1.25em;
   color: inherit;
 }
-.wrapper .p-light {
-  color: rgba(255, 255, 255, 0.5);
-  font-style: italic;
+#l-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e6e6e6;
+  clip-path: polygon(0 0, 70% 0, 30% 100%, 0 100%);
+}
+#r-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #363643;
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%);
 }
 footer {
   width: 100vw;
