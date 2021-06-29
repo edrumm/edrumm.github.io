@@ -89,7 +89,7 @@ nav img:hover {
   -o-transition: transform 0.5s;
   transition: transform 0.5s;
 }
-.section {
+.wrapper {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -99,29 +99,24 @@ nav img:hover {
   background-color: #FFFFFF;
   color: #1F1F27;
 }
-.section h1 {
+.wrapper h1 {
   font-size: 7em;
   color: inherit;
   padding: 0;
 }
-.section h2 {
+.wrapper h2 {
   font-style: italic;
   color: inherit;
 }
-.section p {
+.wrapper p {
   font-family: Titillium Web, sans-serif;
   font-size: 1.25em;
   color: inherit;
 }
-.section .p-light {
+.wrapper .p-light {
   color: rgba(255, 255, 255, 0.5);
   font-style: italic;
 }
-/*#top {
-  color: @white;
-  background-image: url("@{assets}/img/background.png");
-  background-size: cover;
-}*/
 footer {
   width: 100vw;
   right: 0;
