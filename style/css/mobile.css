@@ -22,138 +22,9 @@
   /* url("@{dir}TitilliumWeb-Regular.eot") format("embedded-opentype"),
   url("@{dir}TitilliumWeb-Regular.wof") format("woff");*/
 }
-:root {
-  font-family: sans-serif;
-  font-size: 1em;
-}
-html {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
-html,
-body {
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0;
-}
-.hide-mobile {
-  display: inline-block;
-}
-h1 {
-  font-family: Asap, sans-serif;
-  font-size: 1.8em;
-  padding: 0.25%;
-}
-h2 {
-  font-family: Titillium Web, sans-serif;
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.25em;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-a:hover {
-  color: #b3b3b3;
-  -webkit-transition: color 0.5s linear;
-  -moz-transition: color 0.5s linear;
-  -o-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-nav {
-  color: #FFFFFF;
-  background: #1F1F27;
-  font-family: Oswald, sans-serif;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  padding: 0.5%;
-  width: 100vw;
-  z-index: 1;
-}
-nav img {
-  width: 1.5%;
-  padding: 0.5%;
-  transform: scale(1);
-  -webkit-transition: transform 0.5s;
-  -moz-transition: transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
-}
-nav img:hover {
-  cursor: pointer;
-  transform: scale(1.25);
-  -webkit-transition: transform 0.5s;
-  -moz-transition: transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
-}
-.wrapper {
-  width: 100vw;
-  height: 100vh;
-  background-color: #FFFFFF;
-  color: #1F1F27;
-  z-index: 0;
-}
-.wrapper h1 {
-  font-size: 7em;
-  color: inherit;
-  padding: 0;
-}
-.wrapper h2 {
-  font-style: italic;
-  color: inherit;
-}
-.wrapper p {
-  font-family: Titillium Web, sans-serif;
-  font-size: 1.25em;
-  color: inherit;
-}
-#l-panel,
-#r-panel {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-#l-panel p,
-#r-panel p {
-  font-size: 6em;
-}
-#l-panel {
-  left: 0;
-  justify-content: flex-start;
-  background: #e6e6e6;
-  clip-path: polygon(0 0, 70% 0, 30% 100%, 0 100%);
-}
-#r-panel {
-  right: 0;
-  justify-content: flex-end;
-  background: #363643;
-  clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%);
-}
-.spacer {
-  width: 30%;
-}
-footer {
-  width: 100vw;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  color: #FFFFFF;
-  background-color: #1F1F27;
-  font-family: Titillium Web, sans-serif;
-  font-size: 0.8em;
-  text-align: center;
-  padding: 0.5%;
-}
 @media only screen and (max-width: 1024px) {
   nav img {
-    width: 3%;
+    width: 10%;
     padding: 1.25% 1.25% 1.25% 3%;
   }
   .wrapper h1 {
@@ -169,7 +40,7 @@ footer {
     align-items: center;
   }
   nav img {
-    width: 12%;
+    width: 30%;
   }
   nav .active {
     display: block;
