@@ -1,18 +1,26 @@
 @font-face {
   font-family: 'Asap';
   src: url("../../assets/fonts/Asap-Regular.ttf") format("truetype");
+  /* url("@{dir}Asap-Regular.eot") format("embedded-opentype"),
+  url("@{dir}Asap-Regular.wof") format("woff");*/
 }
 @font-face {
   font-family: 'Oswald';
   src: url("../../assets/fonts/Oswald-Regular.ttf") format("truetype");
+  /* url("@{dir}Oswald-Regular.eot") format("embedded-opentype"),
+  url("@{dir}Oswald-Regular.wof") format("woff");*/
 }
 @font-face {
   font-family: 'Roboto Mono';
   src: url("../../assets/fonts/RobotoMono-Regular.ttf") format("truetype");
+  /* url("@{dir}RobotoMono-Regular.eot") format("embedded-opentype"),
+  url("@{dir}RobotoMono-Regular.wof") format("woff");*/
 }
 @font-face {
   font-family: 'Titillium Web';
   src: url("../../assets/fonts/TitilliumWeb-Regular.ttf") format("truetype");
+  /* url("@{dir}TitilliumWeb-Regular.eot") format("embedded-opentype"),
+  url("@{dir}TitilliumWeb-Regular.wof") format("woff");*/
 }
 :root {
   font-family: sans-serif;
@@ -48,7 +56,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #a6a6a6;
+  color: #b3b3b3;
   -webkit-transition: color 0.5s linear;
   -moz-transition: color 0.5s linear;
   -o-transition: color 0.5s linear;
@@ -63,22 +71,6 @@ nav {
   position: fixed;
   padding: 0.5%;
   width: 100vw;
-}
-nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  padding-right: 2%;
-}
-nav ul li {
-  padding: 2%;
-  margin-right: 50%;
-}
-nav ul li a {
-  text-align: center;
-}
-nav .dropdown-btn {
-  display: none;
 }
 nav img {
   width: 1.5%;
