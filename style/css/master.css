@@ -136,6 +136,23 @@ nav img:hover {
   background: #363643;
   clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%);
 }
+#r-panel a,
+#l-panel a {
+  display: inline-block;
+  transform: scale(1);
+  -webkit-transition: transform 0.5s linear;
+  -moz-transition: transform 0.5s linear;
+  -o-transition: transform 0.5s linear;
+  transition: transform 0.5s linear;
+}
+#r-panel a:hover,
+#l-panel a:hover {
+  transform: scale(1.25);
+  -webkit-transition: transform 0.5s linear;
+  -moz-transition: transform 0.5s linear;
+  -o-transition: transform 0.5s linear;
+  transition: transform 0.5s linear;
+}
 .spacer {
   width: 30%;
 }

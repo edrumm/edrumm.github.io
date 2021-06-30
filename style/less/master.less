@@ -132,6 +132,17 @@ nav {
   clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%);
 }
 
+#r-panel a, #l-panel a {
+  display: inline-block;
+  transform: scale(1);
+  .transition-properties(transform 0.5s linear);
+
+  &:hover {
+    transform: scale(1.25);
+    .transition-properties(transform 0.5s linear);
+  }
+}
+
 .spacer {
   width: 30%;
 }
